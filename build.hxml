@@ -1,8 +1,9 @@
 -cp src
 -D doc-gen
+--macro include('Backends')
+--macro include('Kinc')
+--macro include('Sources')
+--macro include('Tools')
 --no-output
---each
-
---next
--xml bin/hl.xml
--hl kha.hl
+-xml bin/js.xml
+-js kha.js
